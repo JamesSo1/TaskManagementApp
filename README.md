@@ -1,8 +1,8 @@
-# Task Manager App
+# Task Management App
 
 ## Overview
 
-The Task Manager App is a web-based application designed to help users organize their tasks based on four levels of priority: Do, Decide, Delegate, and Delete. This format follows the [Eisenhower Matrix](https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method)
+The Task Management App is a web-based application designed to help users organize their tasks based on four levels of priority: Do, Decide, Delegate, and Delete. This format follows the [Eisenhower Matrix](https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method)
  strategy of task allocation. Users can log in with their Google account to save and retrieve their tasks.
 
 ## Features
@@ -20,7 +20,7 @@ The Task Manager App is a web-based application designed to help users organize 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/JamesSo1/TaskManagerApp.git
+git clone https://github.com/JamesSo1/TaskManagementApp.git
 ```
 ### 2. Set Up Firebase Configuration
 - Open the index.js file and replace the empty firebaseConfig object with your Firebase project configuration details(shown below).
