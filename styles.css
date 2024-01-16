@@ -1,0 +1,97 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  z-index: 99;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  margin-left: 20px;
+}
+
+header a:hover {
+  color: rgba(255, 255, 255, 0.778);
+}
+
+header a:first-of-type {
+  margin-left: 0;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+ul {
+  font-size: 1.1rem;
+}
+
+li {
+  overflow: auto;
+}
+
+#eisenhower-matrix {
+  height: auto;
+  width: auto;
+  display: grid;
+}
+
+.task-input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.crossed-out {
+  text-decoration: line-through;
+}
+
+.grid-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 1.5rem;
+  overflow: auto;
+}
+
+@media (min-width: 768px) {
+  #eisenhower-matrix {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

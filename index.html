@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eisenhower Matrix Maker</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer type="module"></script>
+  </head>
+  <body>
+    <header>
+      <h1 id="website-title">Einsenhower Matrix</h1>
+      <!-- Buttons to help navigate to a certain task list -->
+      <a href="#do-section">Do</a>
+      <a href="#decide-section">Decide</a>
+      <a href="#delegate-section">Delegate</a>
+      <a href="#delete-section">Delete</a>
+      <div class="header-right">
+        <p>Welcome<span id="displayName"></span>!</p>
+        <div class="input">
+          <button id="google-login-btn" class="google-button">
+            Login With Google
+          </button>
+        </div>
+      </div>
+    </header>
+    <div id="eisenhower-matrix">
+      <div class="grid-item" id="do-section">
+        Do
+        <div class="tasks">
+          <input
+            type="text"
+            class="task-input"
+            id="do-task-input"
+            placeholder="Add a new task..."
+          />
+          <button id="do-btn">Add Task</button>
+          <ul id="do-task-list"></ul>
+        </div>
+      </div>
+      <div class="grid-item" id="decide-section">
+        Decide
+        <div class="tasks">
+          <input
+            type="text"
+            class="task-input"
+            id="decide-task-input"
+            placeholder="Add a new task..."
+          />
+          <button id="decide-btn">Add Task</button>
+          <ul id="decide-task-list"></ul>
+        </div>
+      </div>
+      <div class="grid-item" id="delegate-section">
+        Delegate
+        <div class="tasks">
+          <input
+            type="text"
+            class="task-input"
+            id="delegate-task-input"
+            placeholder="Add a new task..."
+          />
+          <button id="delegate-btn">Add Task</button>
+          <ul id="delegate-task-list"></ul>
+        </div>
+      </div>
+      <div class="grid-item" id="delete-section">
+        Delete
+        <div class="tasks">
+          <input
+            type="text"
+            class="task-input"
+            id="delete-task-input"
+            placeholder="Add a new task..."
+          />
+          <button id="delete-btn">Add Task</button>
+          <ul id="delete-task-list"></ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
