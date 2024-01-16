@@ -23,7 +23,10 @@ The Task Manager App is a web-based application designed to help users organize 
 git clone https://github.com/JamesSo1/TaskManagerApp.git
 ```
 ### 2. Set Up Firebase Configuration
-- Open the index.js file and replace the empty firebaseConfig object with your Firebase project configuration details.
+- Open the index.js file and replace the empty firebaseConfig object with your Firebase project configuration details(shown below).
+  
+  <img width="772" alt="Screenshot 2024-01-15 at 9 13 09 PM" src="https://github.com/JamesSo1/TaskManagerApp/assets/99366647/4c17d894-aa59-408f-a8fd-917dd4d256f7">
+
 
 ### 3. Run the App
 - Open the index.html file in a web browser.
